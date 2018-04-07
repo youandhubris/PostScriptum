@@ -24,3 +24,18 @@ public sealed class MirrorRenderer : PostProcessEffectRenderer<Mirror>
         context.command.BlitFullscreenTriangle(context.source, context.destination, sheet, 0);
     }
 }
+
+/// <summary>
+/// </summary>
+public enum Mirror
+{
+    None,
+    Left,
+    Right,
+    Bottom,
+    Top,
+    BottomLeft,
+    TopLeft,
+    BottomRight,
+    TopRight
+}
