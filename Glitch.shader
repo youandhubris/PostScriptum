@@ -1,9 +1,8 @@
-﻿Shader "Hubris/PostProcess/Glitch"
+﻿Shader "Hidden/PostScriptum/Glitch"
 {
 	HLSLINCLUDE
 
 #include "PostProcessing/Shaders/StdLib.hlsl"
-
 #include "../HLSL/Math/Random.hlsl"
 
 	TEXTURE2D_SAMPLER2D(_MainTex, sampler_MainTex);

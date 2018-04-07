@@ -1,4 +1,4 @@
-﻿Shader "Hubris/PostProcess/Kaleido"
+﻿Shader "Hidden/PostScriptum/Kaleido"
 {
 	HLSLINCLUDE
 

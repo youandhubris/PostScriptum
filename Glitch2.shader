@@ -1,4 +1,4 @@
-﻿Shader "Hubris/PostProcess/Glitch2"
+﻿Shader "Hidden/PostScriptum/Glitch2"
 {
 	HLSLINCLUDE
 

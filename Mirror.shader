@@ -1,9 +1,8 @@
-﻿Shader "Hubris/PostProcess/Mirror"
+﻿Shader "Hidden/PostScriptum/Mirror"
 {
 	HLSLINCLUDE
 
 	#include "PostProcessing/Shaders/StdLib.hlsl"
-
 	#include "../HLSL/AA/AAStep.hlsl"
 	#include "../HLSL/Color/ConvertCMYK.hlsl"
 	#include "../HLSL/NoiseAshima.hlsl"

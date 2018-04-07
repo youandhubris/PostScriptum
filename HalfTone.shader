@@ -1,9 +1,8 @@
-﻿Shader "Hubris/PostProcess/HalfTone"
+﻿Shader "Hidden/PostScriptum/HalfTone"
 {
 	HLSLINCLUDE
 
 	#include "PostProcessing/Shaders/StdLib.hlsl"
-
 	#include "../HLSL/AA/AAStep.hlsl"
 	#include "../HLSL/Color/ConvertCMYK.hlsl"
 	#include "../HLSL/NoiseAshima.hlsl"

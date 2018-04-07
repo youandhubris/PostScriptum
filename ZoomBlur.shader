@@ -1,4 +1,4 @@
-﻿Shader "Hubris/PostProcess/ZoomBlur"
+﻿Shader "Hidden/PostScriptum/ZoomBlur"
 {
 	HLSLINCLUDE
 

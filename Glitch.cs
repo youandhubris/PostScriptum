@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.Rendering.PostProcessing;
 
 [Serializable]
-[PostProcess(typeof(GlitchRenderer), PostProcessEvent.AfterStack, "Hubris/Glitch")]
+[PostProcess(typeof(GlitchRenderer), PostProcessEvent.AfterStack, "Synecdoche/Glitch")]
 public sealed class Glitch : PostProcessEffectSettings
 {
 
@@ -38,7 +38,7 @@ public sealed class GlitchRenderer : PostProcessEffectRenderer<Glitch>
 {
     public override void Render(PostProcessRenderContext context)
     {
-        var sheet = context.propertySheets.Get(Shader.Find("Hubris/PostProcess/Glitch"));
+        var sheet = context.propertySheets.Get(Shader.Find("Hidden/PostScriptum/Glitch"));
 
         sheet.properties.SetFloat("_Intensity", settings.intensity);
         sheet.properties.SetFloat("_ColorIntensity", settings.colorIntensity);
